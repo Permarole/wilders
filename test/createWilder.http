@@ -1,0 +1,39 @@
+POST http://127.0.0.1:4000/api/wilders
+Content-Type: application/json
+
+{
+    "name": "John",
+    "city": "Montpellier",
+    "skills": []
+}
+
+###
+
+GET http://127.0.0.1:4000/api/wilders/62272572c8822f26b4565d27
+Content-Type: application/json
+
+
+###
+GET http://127.0.0.1:4000/api/wilders
+Content-Type: application/json
+
+###
+
+DELETE http://127.0.0.1:4000/api/wilders/622725e3375039ff4cd5f9f7
+
+
+###
+
+PUT http://127.0.0.1:4000/api/wilders/62272572c8822f26b4565d27
+Content-Type: application/json
+
+{
+    "name": "Marc",
+    "city": "VillerBanne",
+    "skills": []
+}
+
+###
+
+PATCH http://127.0.0.1:4000/api/wilders/622725e3375039ff4cd5f9f9
+Content-Type: application/json
